@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: linear-gradient(to right, #afa2a285, #d6d9f870);
+}
+
+input{
+    background-color: rgba(92, 54, 141, 0);
+    color: black;   
+}
+select{
+    background-color: rgba(92, 54, 141, 0);
+    color: black;       
+}
+
+::placeholder {
+    color: black;
+    opacity: 1;
+}
+::-ms-input-placeholder { 
+    color: black;
+  }
